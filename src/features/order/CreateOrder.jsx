@@ -141,8 +141,7 @@ function CreateOrder() {
             onChange={(e) => setWithPriority(e.target.checked)}
           />
           <label htmlFor="priority" className="font-medium">
-            Make this order on priority for extra{" "}
-            {formatCurrency(totalPrice * 0.2)}
+            Make this order on priority for extra 0.2 time of the cart value.
           </label>
         </div>
         <div>
