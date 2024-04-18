@@ -11,7 +11,7 @@ export default function Header() {
      py-3 uppercase sm:px-6"
     >
       <Link to="/" className="tracking-widest">
-        Fast react pizza
+        Pizza Palace <span className="text-xs text-stone-600">by Dubey G</span>
       </Link>
       <SearchOrder />
       {/* <p>Alok Dubey</p> */}
